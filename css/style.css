@@ -1,0 +1,254 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+
+body p {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.top_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1040px;
+}
+
+.top_nav_left {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_title {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_title img {
+   width: 50px;
+   height: 50px;
+ }
+
+ .left_title div {
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+ }
+
+.left_title p:nth-child(1) {
+  font-weight: bold;
+  font-size: 30px;
+  /* line-height: 1; */
+  /* padding-bottom: 3px; */
+}
+.left_title p:nth-child(2) {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.right_title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.right-title_time {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-nav_right button{
+  border-radius: 50px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+  border: 1px solid grey;
+  font-weight: bold;
+  outline: none;
+}
+
+.right_title p:nth-child(1) {
+  font-weight: bold;
+  font-size: 16px;
+}
+.right_title p:nth-child(2) {
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.fa-star {
+  color: yellow;
+}
+
+/* bottom */
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+}
+
+.bottom-nav_left {
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom-nav_text {
+  padding-right: 15px;
+}
+
+.bottom-nav_right button {
+  border-radius: 10px;
+  padding: 14px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border: none;
+  outline: none;
+  font-weight: bold;  
+  background-color: #ff6900;
+  color: #fff;  
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.banner img {
+  width: 100%;
+}
+
+.promocode {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.promocode__left {
+  display: flex;
+  flex-direction: row;
+  padding-right: 33px;
+}
+.promocode__left input:nth-child(1) {
+  padding: 5px;
+  padding-left: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 1px solid grey;
+  border-right: none;
+  outline: none;
+  font-weight: bold;
+}
+.promocode__left input:nth-child(1):focus {
+  border: solid 1px #ff6900;
+  border-right: none;
+}
+.promocode__left input:nth-child(2) {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px solid #ff6900;
+  background-color: #fff;
+  color: #ff6900;
+  outline: none;
+  font-weight: bold;
+}
+.promocode__right {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid #cccc;
+  padding-left: 33px;
+}
+.promocode__right_text {
+  padding-left: 15px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.menu__inner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1040px;
+}
+.menu__inner_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 400px; */
+  width: 240px;
+  padding: 10px;
+}
+.menu__inner_description {
+  margin-bottom: 15px;
+}
+
+.menu__inner_cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu__inner_cart p:nth-child(1) {
+  font-weight: bold;
+}
+.menu__inner_cart input:nth-child(2) {
+  padding: 10px;
+  height: 100%;
+  width: 45%;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #ff6900;
+  color: #ff6900;
+}
+
+.menu__inner_drink {
+  width: 1040px;  
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+.drink_title {
+  align-self: flex-start;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.drinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.drinks_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.drinks_item div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
